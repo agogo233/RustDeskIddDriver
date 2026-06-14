@@ -1,17 +1,17 @@
 The sample based on [Indirect Display Driver Sample](https://github.com/microsoft/Windows-driver-samples/tree/master/video/IndirectDisplay).
 
-# [RustDeskIddDriver](./RustDeskIddDriver)
+# [MyDeskIddDriver](./MyDeskIddDriver)
 
 This project gives the following abilities:
 
 1. Plugin and plugout monitors.
 2. Update monitor modes.
 
-See [`IOCTL_CHANGER_IDD_PLUG_IN`](./RustDeskIddDriver/Public.h#L7) [`IOCTL_CHANGER_IDD_PLUG_OUT`](./RustDeskIddDriver/Public.h#L11) [`IOCTL_CHANGER_IDD_UPDATE_MONITOR_MODE`](./RustDeskIddDriver/Public.h#L15).
+See [`IOCTL_CHANGER_IDD_PLUG_IN`](./MyDeskIddDriver/Public.h#L7) [`IOCTL_CHANGER_IDD_PLUG_OUT`](./MyDeskIddDriver/Public.h#L11) [`IOCTL_CHANGER_IDD_UPDATE_MONITOR_MODE`](./MyDeskIddDriver/Public.h#L15).
 
-See [RustDeskIddApp](./RustDeskIddApp) for examples.
+See [MyDeskIddApp](./MyDeskIddApp) for examples.
 
-# [RustDeskIddApp](./RustDeskIddApp/README.md)
+# [MyDeskIddApp](./MyDeskIddApp/README.md)
 
 The test application to create device, install idd, and plugin monitors.
 
